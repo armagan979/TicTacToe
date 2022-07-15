@@ -55,6 +55,6 @@ reset.addEventListener("click",()=>{
     gameOver=false;
     count=0;
     document.getElementsByClassName("player")[0].innerText=player;
-    document.getElementById("result").innerText="running";
+    document.getElementById("result").innerText="Game In Progress";
     document.querySelector("img").style.width = "0px";
 });
