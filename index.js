@@ -53,6 +53,7 @@ reset.addEventListener("click",()=>{
     })
     player='X';
     gameOver=false;
+    count=0;
     document.getElementsByClassName("player")[0].innerText=player;
     document.getElementById("result").innerText="running";
     document.querySelector("img").style.width = "0px";
